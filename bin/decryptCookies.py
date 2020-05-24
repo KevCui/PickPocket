@@ -12,7 +12,7 @@ def main(db):
     rows = conn.cursor().execute(query)
 
     for r in rows.fetchall():
-        print(r[0] + ':' + decrypt(r[1]) + ';')
+        print(r[0] + '=' + decrypt(r[1]) + ';')
 
 
 def clean(x):
