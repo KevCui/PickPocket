@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Pick items inside your Pocket
+# Pick items in your Pocket
 #
 #/ Usage:
 #/   ./pickpocket.sh <cookie_db>
