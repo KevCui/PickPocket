@@ -42,7 +42,7 @@ Options:
    --help          display this help message
 ```
 
-## Example
+### Example
 
 - Use Chromium cookie database:
 
