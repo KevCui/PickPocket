@@ -70,7 +70,7 @@ get_cookie() {
     tmp=$(mktemp)
     cp "$1" "$tmp"
 
-    t=$($_SQLITE "$1" ".tables")
+    t=$($_SQLITE "$tmp" ".tables")
     if [[ "$t" == "moz_cookies" ]]; then
         $_SQLITE "$tmp" "SELECT name,value from moz_cookies where host='getpocket.com'" \
             | awk '{printf "%s; ", $0}' \
