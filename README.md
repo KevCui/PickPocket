@@ -24,10 +24,10 @@ This framework needs cookies from `getpocket.com` to bypass authentication. So a
 
 - Create `match.conf` in script root directory. Copy and edit `match.conf.sample` to `match.conf` is recommended.
 
-- Edit `match.conf`, put `<key> <pattern> <function name>` per line.
-  - <key>: Here is [a list of available keys](https://getpocket.com/developer/docs/v3/retrieve) in response data. For example: `item_id`, `tags`, `resolved_url` or ...
-  - <pattern>: regex
-  - <function name>: The name of the function which is predefined in `custom-func.sh`.
+- Edit `match.conf`, put `<key> <pattern> <function name>` per line. If the `value` of `<key>` is matched by `<pattern>`, then <function name> will be executed.
+  - key: Here is [a list of available keys](https://getpocket.com/developer/docs/v3/retrieve) in response data. For example: `item_id`, `tags`, `resolved_url` or ...
+  - pattern: regex
+  - function name: The name of the function which is predefined in `custom-func.sh`.
 
 - Prepare new functions in `custom-func.sh`. Pocket related API calls can be found in 'lib/pocket-api-call.sh'.
 
