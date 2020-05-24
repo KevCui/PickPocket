@@ -1,0 +1,3 @@
+tags "open" open_in_browser
+tags "archive" archive_item
+resolved_url .*youtube.com/watch\?v=.* download_video
