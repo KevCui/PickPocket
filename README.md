@@ -1,7 +1,7 @@
 PickPocket
 ==========
 
-> A highly customizable framework to pick any items in your Pocket list in order to automatize further actions
+> A highly customizable framework to pick any items in your Pocket list and automatize further actions
 
 ## Why
 
